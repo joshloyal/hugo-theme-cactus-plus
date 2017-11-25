@@ -183,14 +183,14 @@ nav.main-nav a {
     top: 8px;
     right: 6px;
     padding: 8px 12px;
-    color: #5badf0;
+    color: #ff8600;
     font-size: 13px;
     line-height: 1.35;
     border-radius: 3px;
 }
 
 nav.main-nav a.cta {
-    background: #5badf0;
+    background: #ff8600;
     color: #fff;
     margin-left: 12px;
 }
@@ -207,7 +207,7 @@ nav.main-nav a.cta {
       top: 8px;
       right: 6px;
       padding: 8px 8px;
-      color: #5badf0;
+      color: #ff8600;
       font-size: 13px;
       line-height: 1.35;
       border-radius: 3px;
@@ -220,7 +220,7 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 60px 40px 100px 40px;
 }
@@ -246,12 +246,12 @@ nav.main-nav a.cta {
 
 a, #title, #post-list a:hover, #title:hover {
     text-decoration: none;
-    color: #5badf0;
-    color: #5694f1;
+    color: #ff8600;
+    color: #ff8600;
 }
 
 p a {
-    color: #5694f1;
+    color: #ff8600;
 }
 
 
@@ -524,9 +524,9 @@ Post List
 }
 
 #archive-link:hover {
-    background: #5694f1;
+    background: #ff8600;
     color: #fff;
-    box-shadow: 0 0 0 1px #5694f1;
+    box-shadow: 0 0 0 1px #ff8600;
 }
 
 #archive-link span {
@@ -681,7 +681,7 @@ h2.month {
 }
 
 #archive-list li a:hover, #archive-list li:hover .dates {
-    color: #5694f1;
+    color: #ff8600;
 }
 
 #post-meta img.avatar {
@@ -705,7 +705,7 @@ h2.month {
 
 #post-list.archive.readmore a {
     font: 400 16px/1.6 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #5694f1;
+    color: #ff8600;
 }
 
 #post-list.archive.readmore a:hover {
@@ -816,11 +816,11 @@ h2.month {
 }
 
 .archive .post-item:hover {
-    color: #5694f1;
+    color: #ff8600;
     transition: 0.3s ease-out;
 }
 .archive .post-item:hover .post-link {
-    color: #5694f1;
+    color: #ff8600;
 }
 
 .fa.fa-heart:hover {
@@ -925,5 +925,5 @@ a.symbol:hover {
 }
 
 .page-tags .tags:hover a {
-    color: #5694f1;
+    color: #ff8600;
 }
