@@ -9,6 +9,7 @@
                         {{ .Title }}
                     </h1>
                     <h2 class="headline">
+                    {{ if .Param.author }}by {{ .Param.author }}{{ end }}<br/>
                     {{ .Date.Format "Jan 2, 2006" }}
                     · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
                     · {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
