@@ -4,7 +4,8 @@
 	{{ partial "profile.html" . }}
 
 	<section id="wrapper" class="home">
-		{{ range (where .Data.Pages "Section" "post") ".GroupByDate" "2006" }}
+    {{ $postPages := where .Data.Pages "Section" "post" }}
+		{{ range $postPages.GroupByDate "2006" }}
 		<div class="archive">
 			<h3>{{ .Key }}</h3>
 			<ul>
