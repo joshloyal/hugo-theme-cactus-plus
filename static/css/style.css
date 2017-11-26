@@ -370,6 +370,7 @@ em, i {
     background-color: #ff8600;
     border-bottom: #ff8600;
     text-decoration: none;
+    border-bottom: 3px solid #ff8600;
 }
 
 #post-list h2 {
