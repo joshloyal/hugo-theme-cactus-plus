@@ -6,7 +6,7 @@
     {{ with .Site.Params.copyright }}
         {{ . | markdownify }}
     {{ else }}
-       © {{ now.Format "2006"}} ・ {{ if .Site.Params.about_url }}<a href='{{ .Site.Params.copyright_url }}'>{{ .Site.Params.copyright }}</a>{{ else }}{{ .Site.Params.name }}{{ end }}
+       © {{ now.Format "2006"}} ・ {{ if .Site.Params.about_url }}<a href='{{ .Site.Params.copyright_url }}'>{{ .Site.Params.copyright_name }}</a>{{ else }}{{ .Site.Params.name }}{{ end }}
     {{ end }}
     </p>
     <p class="small">
